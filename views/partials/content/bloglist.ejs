@@ -1,0 +1,22 @@
+<article class="bloglist">
+    <% if (article==='') { %>
+        <% articles.forEach(function(item) { %>
+            <article class="article group">
+                <h3>Article Title: <%= item.title %></h3> 
+                <p><%- item.summary%></p>
+                <p><%- item.description %></p>
+            </article>
+        <% }); %>
+    <% } else { %>
+        <% articles.forEach(function(item) { %>
+            <% if(item.title === article) {%>
+                <article class="article group">
+                    <h3>Article Title: <%= item.title %></h3> 
+                    <p><%- item.summary%></p>
+                    <p><%- item.description %></p>
+                </article>
+            <% } %>
+        <% }); %>
+    <% } %>
+
+</article>

@@ -1,0 +1,10 @@
+<article class="imagelist">
+    <h1>Images on display</h1>
+    <div class="pixgrid">
+    <% if(images.length>0) {%>
+        <% for(i=0; i< images.length; i++) {%>
+            <img src="/images/<%= images[i] %>" alt="Image <%= i %>">
+        <%}%>
+    <% } %>
+    </div>
+</article>

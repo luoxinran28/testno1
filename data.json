@@ -1,0 +1,50 @@
+{
+  "articles": [{
+    "title" : "Art in Full Bloom",
+    "summary" : "For the Google service with same name, see Blogger (service). For other uses, see Blog (disambiguation).",
+    "description": "<p>A blog (a truncation of the expression weblog)[1] is a discussion or informational site published on the World Wide Web consisting of discrete entries  typically displayed in reverse chronological order (the most recent post appears first). Until 2009, blogs were usually the work of a single individual[citation needed], occasionally of a small group, and often covered a single subject. More recently  (MABs) have developed, with posts written by large numbers of authors and professionally edited. MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise of Twitter and other  systems helps integrate MABs and single-author blogs into societal newstreams. Blog can also be used as a verb, meaning to maintain or add content to a blog.</p>",
+    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]
+  },{
+    "title" : "Deep Sea Wonders",
+    "summary" : "For the Google service with same name, see Blogger (service). For other uses, see Blog (disambiguation).",
+    "description": "<p>A blog (a truncation of the expression weblog)[1] is a discussion or informational site published on the World Wide Web consisting of discrete entries  typically displayed in reverse chronologicalnological order (the most recent post appears first). Until 2009, blogs were usually the work of a single individual[citation needed], occasionally of a small group, and often covered a single subject. More recently  (MABs) have developed, with posts written by large numbers of authors and professionally edited. MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise of Twitter and other  systems helps integrate MABs and single-author blogs into societal newstreams. Blog can also be used as a verb, meaning to maintain or add content to a blog.</p>",
+    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]
+  },{
+    "title" : "The Art of Abstract",
+    "summary" : "For the Google service with same name, see Blogger (service). For other uses, see Blog (disambiguation).",
+    "description": "<p>A blog (a truncation of the expression weblog)[1] is a discussion or informational site published on the World Wide Web consisting of discrete entries  typically displayed in reverse chronological order (the most recent post appears first). Until 2009, blogs were usually the work of a single individual[citation needed], occasionally of a small group, and often covered a single subject. More recently  (MABs) have developed, with posts written by large numbers of authors and professionally edited. MABs from newspapers, other media outlets, universities, think tanks, advocacy groups, and similar institutions account for an increasing quantity of blog traffic. The rise of Twitter and other  systems helps integrate MABs and single-author blogs into societal newstreams. Blog can also be used as a verb, meaning to maintain or add content to a blog.</p>",
+    "images": ["3.jpg", "4.jpg", "5.jpg", "6.jpg"]
+  }],
+
+  "social" : [{
+    "shortname" : "twitter",
+    "img" : "/images/socialmedia/twitter.png",
+    "url" : "http://www.twitter.com"
+  },{
+    "shortname" : "facebook",
+    "img" : "/images/socialmedia/facebook.png",
+    "url" : "http://www.facebook.com"
+  },{
+    "shortname" : "meetup",
+    "img" : "/images/socialmedia/meetup.png",
+    "url" : "http://www.meetup.com"
+  }],
+
+  "security" : [{
+    "username" : "admin",
+    "password" : "admin"
+  },{
+    "username" : "sean",
+    "password" : "admin"
+  }],
+
+  "meeting" : {
+    "date": "Thursday, March 27th",
+    "time": "6-9pm",
+    "where": {
+      "name": "Hotel Gwendoline",
+      "img": "/images/misc/hotel.jpg",
+      "address": "123 Elm Street"
+    }
+  }
+}
